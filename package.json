@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "turbo": "^1.1.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap && lerna exec npm install",
+    "build1": "lerna run build",
+    "investor-dev": "lerna run --scope investor development",
+    "storybook-build": "lerna run --scope @raj23manj/components-lib build",
+    "storybook-dev": "lerna run --scope @raj23manj/components-lib storybook"
+  },
+  "packageManager": "npm@8.3.1"
+}

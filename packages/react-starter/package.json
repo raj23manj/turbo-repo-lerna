@@ -1,0 +1,38 @@
+{
+  "name": "investor",
+  "version": "1.0.0",
+  "description": "starter",
+  "main": "index.js",
+  "scripts": {
+    "development-investor": "webpack serve -c ./webpack_config/webpack.dev.config.js",
+    "test": "test",
+    "build": "webpack build -c ./webpack_config/clients/webpack.prod.config.js"
+  },
+  "keywords": [
+    "starter"
+  ],
+  "author": "rajesh manjunath",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0",
+    "webpack-server": "^0.1.2"
+  },
+  "dependencies": {
+    "@raj23manj/components-lib": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
